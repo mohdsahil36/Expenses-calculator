@@ -1,0 +1,95 @@
+.new_expense{
+    padding: 1.5rem;
+}
+
+.wrapping-div{
+    padding: 1.25rem;
+    margin: 1rem;
+    background-color: rgb(45, 45, 95);
+    display: flex;
+    color: white;
+    font-size: 1.5rem;
+    justify-content: space-between;
+    border-radius: 15px;
+    .date{
+        margin-top: 0.5rem;
+        background-color: grey;
+        padding: 0rem 2rem;
+        text-align: center;
+        border-radius: 10px;
+        border: 2px solid white;
+        font-size: 1.25rem;
+    }
+    .expenses-desc{
+        margin-top: 0.5rem;
+        .reason{
+            font-weight: 600;
+        }
+    }
+    .expenses-cost{
+        .amount{
+            background-color: rgb(120, 116, 116);
+            padding: 0.5rem 1.5rem;
+            border: 2px solid white;
+            border-radius: 10px;
+            font-size: 1.25rem;
+        }
+    }
+}
+.add_new{
+    font-weight: 600;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+.values-input{
+    border-radius: 15px;
+    background-color:  rgb(45, 45, 95);
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+    padding: 1.5rem;
+    .title,.amount,.date{
+        display: inline-grid;
+        width: 15rem;
+    }
+    button{
+        background-color: darkblue;
+        padding: 0.5rem 1.5rem;
+        border: 2px solid white;
+        border-radius: 10px;
+        color: white;
+    }
+}
+
+//filter section
+.expenses-filter{
+    border-radius: 15px;
+    color: white;
+    padding: 0 1rem;
+    .expenses-filter__control {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+        margin: 1rem 0;
+        .expenses-filter label {
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+        }
+        .expenses-filter select {
+            font: inherit;
+            padding: 0.5rem 3rem;
+            font-weight: bold;
+            border-radius: 6px;
+        }
+    }
+}
+
+.add-button,.cancel-button{
+    background-color: darkblue;
+    padding: 0.5rem 1.5rem;
+    border: 2px solid black;
+    border-radius: 7px;
+    color: white;
+}
